@@ -3,6 +3,27 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    width: 75%;
     padding: 20px;
+	color: #209d98;
 }
+
+.MessageList > div {
+	margin-bottom: 20px;
+}
+
+.MessageList > div > div {
+	display: inline-block;
+	border: 1px solid #209d98;
+	border-top-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+	border-bottom-left-radius: 15px;
+	padding: 10px;
+	background-color: #f2f6f7;
+	margin-left: 20px;
+}
+
+.MessageList strong {
+	margin-bottom: 10px;
+	display: block;
+}
+

@@ -15,16 +15,18 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid #209d98;
+    background-color: #f2f6f7;
+    color: #209d98;
 }
 
 .AppTitle {
     display: flex;
     width: 25%;
-    border-right: 1px solid #ccc;
     justify-content: center;
     box-sizing: border-box;
     padding: 20px;
+    color: #209d98;
 }
 
 .AppRoom {
@@ -33,6 +35,8 @@ body {
     justify-content: center;
     box-sizing: border-box;
     padding: 20px;
+    border-left: 1px solid #209d98;
+    background-color: #f2f6f7;
 }
 
 .AppBody {
@@ -44,6 +48,6 @@ body {
 .MessageWrapper {
     display: flex;
     flex-direction: column;
-    width: 75%;
     flex: 3;
+    width: 75%; 
 }

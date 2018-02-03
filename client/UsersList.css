@@ -4,13 +4,14 @@
     width: 25%;
     justify-content: flex-start;
     flex-direction: column;
-    border-right: 1px solid #ccc;
+    border-right: 1px solid #209d98;
 }
 
 .UsersOnline {
     padding: 20px;
     text-align: center;
-    background: #ccc;
+    background-color: #209d98;
+    color: #ffffff;
 }
 
 .UsersList {
@@ -20,7 +21,9 @@
 
 .UserItem {
     list-style: none;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid #209d98;
     padding: 20px;
-    margin: 0 0 0 20px;
+    margin: 0;
+    background-color: #28bfb7;
+    color: #ffffff;
 }

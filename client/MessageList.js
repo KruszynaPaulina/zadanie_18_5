@@ -3,8 +3,8 @@ import styles from './MessageList.css';
 
 const Message = props => (
     <div className={styles.Message}>
-        <strong>{props.from} :</strong>
-        <span>{props.text}</span>
+        <strong>{props.from}:</strong>
+        <div><span>{props.text}</span></div>
     </div>
 );
 
